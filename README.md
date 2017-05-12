@@ -7,6 +7,11 @@ Toggle Button and Bootstrap 3 and CSS
 the button. It incorporates the use of the Bootstrap 3 framework, HTML5 and
 CSS.**
 
+View Working Example
+--------------------
+
+[View Working Example] (https://www.bayeseanblog.com/blog/public/demo/toggle/toggle.html)
+
 Getting Started
 ---------------
 
