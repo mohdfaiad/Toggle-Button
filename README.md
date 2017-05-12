@@ -10,7 +10,7 @@ CSS.**
 View Working Example
 --------------------
 
-[View Working Example] (https://www.bayeseanblog.com/blog/public/demo/toggle/toggle.html)
+[View Example](https://www.bayeseanblog.com/blog/public/demo/toggle/toggle.html)
 
 Getting Started
 ---------------
