@@ -1,0 +1,52 @@
+
+
+
+.focus {
+overflow:hidden;
+background: #E9F7FA;
+margin-top :30px;
+}
+
+.focus > div {
+-webkit-transition: all 0.2s ease;
+-moz-transition: margin 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: margin 0.2s ease;
+}
+
+
+/* create new class of button custom colors
+ add toggle actions and transition effects*/
+.btn-extend {
+    background-color: #88D940;
+    border-color: #FFFFFF;
+    color: #121212
+}
+
+/* Change how it looks when hovered or clicked */
+.btn-extend:hover {
+    background-color: #AAD83A;
+    border-color: #E9E7E7;
+    color: #5D5D5D;
+}
+
+.btn-extend:active {
+    background-color: #95D14E;
+    border-color: #FFFFFF;
+    color: #020202;
+}
+
+/* Open and Close Button Action*/
+.btn-extend[value="Show Info"] + .focus > div {
+margin-top:-100%;
+}
+
+.btn-extend[value="Hide Info"] + .focus {
+padding:5px;
+}
+
+/*This hides the  transition effects*/
+.btn-extend {
+display:block
+;margin:5px 0;
+}
